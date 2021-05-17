@@ -1,0 +1,70 @@
+.Header {
+    width: 100%;
+    height: 40px;
+    background-color: #333333;
+}
+
+.Header-container {
+    height: 40px;
+}
+
+.Header-l .sep, .Header-r .sep {
+    margin: 0 .5em;
+    color: #424242;
+}
+
+.Header-l, .Header-r {
+    color: #b0b0b0;
+    line-height: 40px;
+    display: inline-block;
+    font-size: 12px;
+}
+
+.Header-l span, .Header-r span {
+    display: inline-block;
+    height: 40px;
+}
+
+.cart-mini {
+    position: relative;
+    float: right;
+    width: 120px;
+    height: 40px;
+    margin-left: 15px;
+    -webkit-transition: all .2s;
+    transition: all .2s;
+    font-size: 12px;
+}
+
+.cart-mini i:nth-child(2) {
+    position: relative;
+    text-align: center;
+    width: 120px;
+    height: 40px;
+    margin-left: 15px;
+    -webkit-transition: all .2s;
+    transition: all .2s;
+    font-size: 12px;
+}
+
+.cart-mini:hover {
+    background-color: #fff;
+    color: #FF6700;
+}
+
+.J_miniCartMenu {
+    position: absolute;
+    top: 40px;
+    left: -195px;
+    width: 316px;
+    height: 100px;
+    background-color: #fff;
+    text-align: center;
+    line-height: 100px;
+    color: #333;
+    display: none;
+}
+
+.cart-mini:hover>.J_miniCartMenu {
+    display: block;
+}
